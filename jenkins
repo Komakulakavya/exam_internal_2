@@ -15,8 +15,8 @@ pipeline {
             steps {
                 bat """
                     echo Running on Windows Agent
-                    javac -d out src\\hello\\Hello.java
-                    java -cp out hello.Hello
+                    javac -d out HelloWorld.java
+                    java -cp out HelloWorld
                 """
             }
         }
